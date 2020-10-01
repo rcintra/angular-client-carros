@@ -26,3 +26,30 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # angular-client-carros
+
+# BackEnd
+    - Url: https://{db-name}.firebaseio.com/cool-cars.json
+
+    - Firebase
+    curl -X PUT -H "Content-Type: application/json" -d '[
+      {
+        "id": 1,
+        "name": "Ferrari"
+      },
+      {
+          "id": 2,
+          "name": "Jaguar"
+      },
+      {
+          "id": 3,
+          "name": "Porsche"
+      },
+      {
+          "id": 4,
+          "name": "Lamborghini"
+      },
+      {
+          "id": 5,
+          "name": "Bugatti"
+      }
+    ]' https://{db-name}.firebaseio.com/cool-cars.json
